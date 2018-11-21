@@ -1,0 +1,17 @@
+{
+    "type": "package",
+    "name": "y0hy0h/string-fuzzers",
+    "summary": "Control what types of string to use in fuzz tests.",
+    "license": "BSD-3-Clause",
+    "version": "1.0.0",
+    "exposed-modules": [
+        "StringFuzzer"
+    ],
+    "elm-version": "0.19.0 <= v < 0.20.0",
+    "dependencies": {
+        "elm/core": "1.0.0 <= v < 2.0.0",
+        "elm-community/random-extra": "3.0.0 <= v < 4.0.0",
+        "elm-explorations/test": "1.2.0 <= v < 2.0.0"
+    },
+    "test-dependencies": {}
+}
