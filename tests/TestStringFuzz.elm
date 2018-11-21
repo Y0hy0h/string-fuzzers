@@ -1,4 +1,4 @@
-module TestStringFuzzer exposing (suite)
+module TestStringFuzz exposing (suite)
 
 import Expect
 import Fuzz exposing (..)
