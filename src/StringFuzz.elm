@@ -1,4 +1,4 @@
-module StringFuzzer exposing (nonblankStringFuzzer, nonemptyStringFuzzer, whitespaceStringFuzzer)
+module StringFuzz exposing (nonblankStringFuzzer, nonemptyStringFuzzer, whitespaceStringFuzzer)
 
 import Fuzz exposing (Fuzzer)
 import Random
